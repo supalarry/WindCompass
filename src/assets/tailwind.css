@@ -1,0 +1,44 @@
+@tailwind base;
+
+@tailwind components;
+
+@responsive {
+  .heading {
+    @apply text-3xl;
+    @apply font-bold;
+  }
+
+  @screen sm {
+    .heading {
+      @apply text-4xl;
+    }
+  }
+
+  @screen md {
+    .heading {
+      @apply text-5xl;
+    }
+  }
+
+  .button-blue-light {
+    @apply px-4;
+    @apply py-2;
+    @apply rounded-md;
+    @apply border;
+    @apply border-blue-light-app;
+    @apply font-semibold;
+    @apply text-blue-light-app;
+  }
+
+  @screen sm {
+    .button-blue-light {
+      @apply font-medium;
+    }
+  }
+
+  .button-blue-light:active, .button-blue-light:focus {
+    @apply outline-none;
+  }
+}
+
+@tailwind utilities;
