@@ -27,7 +27,7 @@ In the end it is possible to replay the animation or return to previous screen.
 
 This wind compass fetches data from the 30MHz's (30mhz.com) ZENSIE data platform.
 
-Thus, it fetches data from a specific wind sensor.
+Thus, it fetches data from a specific wind sensor. 
 
 Furthermore, for project to work an API key from the platform is required.
 
